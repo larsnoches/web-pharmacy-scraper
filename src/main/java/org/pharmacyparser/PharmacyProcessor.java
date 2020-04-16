@@ -12,11 +12,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PharmacyProcessor {
+    private String pharmacyLabel = null;
     private String rootUrl = null;
     private Connection lastConnection = null;
     private Document doc = null;
 
-    public PharmacyProcessor(String rootUrl) {
+    public PharmacyProcessor(String pharmacyLabel, String rootUrl) {
+        this.pharmacyLabel = pharmacyLabel;
         this.rootUrl = rootUrl;
     }
 
@@ -157,6 +159,8 @@ public class PharmacyProcessor {
                 // name
                 if (productElement != null) {
                     pharmacyProduct.setName(productElement.text().trim());
+                    pharmacyProduct.setPharmacyLabel(pharmacyLabel); // label
+
                     array.add(pharmacyProduct);
                 }
             }

@@ -9,15 +9,15 @@ import java.util.HashMap;
 
 public class Program {
 
-    // ZhivikaPharmacy
+    // zhivika.ru Pharmacy
     public static void zhivikaRequest(String query, ArrayList<PharmacyProduct> array) throws
             MalformedURLException, UnsupportedEncodingException, IOException {
 
         HashMap<String, String> queryData = new HashMap<>();
         queryData.put("searchText", query);
-//            data.put("searchText", URLEncoder.encode(query, "cp1251"));
 
         PharmacyProcessor pharmacyProcessor = new PharmacyProcessor(
+                "Живика",
                 "http://zhivika.ru"
         );
 
@@ -34,19 +34,17 @@ public class Program {
                 "td.booking > a > span.price1",
                 "table.pagination > tbody > tr > td > a.next"
         );
-        array.addAll(products);
 
-        int counter = 0;
-        for (var product : products) {
-            System.out.format(
-                    "%3$d Product %1$s costs %2$s\n",
-                    product.getName(),
-                    product.getPrice(),
-                    ++counter);
+        if (!products.isEmpty()) {
+            array.addAll(products);
+            printProducts(products);
+        }
+        else {
+            System.out.println("No products.");
         }
     }
 
-    // OtSkladaPharmacy
+    // apteka-ot-sklada.ru Pharmacy
     public static void skladRequest(String query, ArrayList<PharmacyProduct> array) throws
             MalformedURLException, UnsupportedEncodingException, IOException {
 
@@ -56,6 +54,7 @@ public class Program {
         cityData.put("backref", "/");
 
         PharmacyProcessor pharmacyProcessor = new PharmacyProcessor(
+                "От склада",
                 "https://apteka-ot-sklada.ru"
         );
         pharmacyProcessor.requestGet(
@@ -83,19 +82,17 @@ public class Program {
                 "span.product-price",
                 "div.paginator > a.paginator-arrow.right"
         );
-        array.addAll(products);
 
-        int counter = 0;
-        for (var product : products) {
-            System.out.format(
-                    "%3$d Product %1$s costs %2$s\n",
-                    product.getName(),
-                    product.getPrice(),//.replace(".", ","),
-                    ++counter);
+        if (!products.isEmpty()) {
+            array.addAll(products);
+            printProducts(products);
+        }
+        else {
+            System.out.println("No products.");
         }
     }
 
-    // ClassicPharmacy
+    // klassika-apteka.ru Pharmacy
     public static void classicRequest(String query, ArrayList<PharmacyProduct> array) throws
             MalformedURLException, UnsupportedEncodingException, IOException {
 
@@ -103,6 +100,7 @@ public class Program {
         cityData.put("id", "114356");
 
         PharmacyProcessor pharmacyProcessor = new PharmacyProcessor(
+                "Классика",
                 "https://klassika-apteka.ru"
         );
         pharmacyProcessor.requestPost(
@@ -128,14 +126,25 @@ public class Program {
                 "div.price_bl > div.price.one_price:first-child",
                 "a.arr.next"
         );
-        array.addAll(products);
 
+        if (!products.isEmpty()) {
+            array.addAll(products);
+            printProducts(products);
+        }
+        else {
+            System.out.println("No products.");
+        }
+    }
+
+    public static void printProducts(ArrayList<PharmacyProduct> products) {
         int counter = 0;
         for (var product : products) {
             System.out.format(
-                    "%3$d Product %1$s costs %2$s\n",
+                    (product.getPrice().isBlank()) ?
+                            "%3$d Product %1$s\n" :
+                            "%3$d Product %1$s costs %2$s\n",
                     product.getName(),
-                    product.getPrice(),//.replace("р.", ""),
+                    product.getPrice(),
                     ++counter);
         }
     }
@@ -143,7 +152,9 @@ public class Program {
     public static void main(String[] args) {
 
         try {
-            String productsQuery = "гематоген";
+            String productsQuery = (args.length > 0) ? args[0] : "гематоген";
+            System.out.format("Parsing for product: %s\n", productsQuery);
+
             ArrayList<PharmacyProduct> productsArray = new ArrayList<>();
 
             System.out.println("===== zhivika.ru");

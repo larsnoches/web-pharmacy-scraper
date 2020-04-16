@@ -34,10 +34,16 @@ public class PharmacyExporter {
 
             // Name title
             Cell titleNameCell = titleRow.createCell(0, CellType.STRING);
-            titleNameCell.setCellValue("Название");
+            titleNameCell.setCellValue("Название товара");
             titleNameCell.setCellStyle(titleStyle);
+
+            // Label title
+            Cell titleLabelCell = titleRow.createCell(1, CellType.STRING);
+            titleLabelCell.setCellValue("Аптека");
+            titleLabelCell.setCellStyle(titleStyle);
+
             // Price title
-            Cell titlePriceCell = titleRow.createCell(1, CellType.STRING);
+            Cell titlePriceCell = titleRow.createCell(2, CellType.NUMERIC);
             titlePriceCell.setCellValue("Цена");
             titlePriceCell.setCellStyle(titleStyle);
 
@@ -48,11 +54,15 @@ public class PharmacyExporter {
                 Cell nameCell = row.createCell(0);
                 nameCell.setCellValue(product.getName());
 
-                Cell priceCell = row.createCell(1);
+                Cell labelCell = row.createCell(1);
+                labelCell.setCellValue(product.getPharmacyLabel());
+
+                Cell priceCell = row.createCell(2);
                 priceCell.setCellValue(product.getPrice());
             }
 
             sheet.autoSizeColumn(0);
+            sheet.autoSizeColumn(1);
 
             try (FileOutputStream output = new FileOutputStream("exported.xls")) {
                 workbook.write(output);

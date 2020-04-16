@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408ac597-3a28-4d65-820f-13b1f8da7dc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/PharmacyExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/PharmacyExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/PharmacyProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/PharmacyProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/PharmacyProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/PharmacyProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/Program.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +85,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
