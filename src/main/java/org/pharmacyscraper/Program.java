@@ -1,4 +1,4 @@
-package org.pharmacyparser;
+package org.pharmacyscraper;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -153,7 +153,7 @@ public class Program {
 
         try {
             String productsQuery = (args.length > 0) ? args[0] : "гематоген";
-            System.out.format("Parsing for product: %s\n", productsQuery);
+            System.out.format("Web-Scraping for product: %s\n", productsQuery);
 
             ArrayList<PharmacyProduct> productsArray = new ArrayList<>();
 

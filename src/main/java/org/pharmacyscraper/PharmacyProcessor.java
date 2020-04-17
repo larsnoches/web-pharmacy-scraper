@@ -1,4 +1,4 @@
-package org.pharmacyparser;
+package org.pharmacyscraper;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;

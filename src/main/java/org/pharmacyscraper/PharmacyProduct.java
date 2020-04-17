@@ -1,4 +1,4 @@
-package org.pharmacyparser;
+package org.pharmacyscraper;
 
 public class PharmacyProduct {
     private String name = "";
