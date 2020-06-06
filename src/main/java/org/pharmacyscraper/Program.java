@@ -3,7 +3,6 @@ package org.pharmacyscraper;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
-//import java.util.ArrayList;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -154,8 +153,8 @@ public class Program {
 
         try {
 //            String productsQuery = (args.length > 0) ? args[0] : "гематоген";
-            java.util.Scanner inCmd = new  java.util.Scanner(System.in);
-            System.out.println("Enter a query for search");
+            Scanner inCmd = new  Scanner(System.in);
+            System.out.println("Please enter a query for search (scraping)");
             String productsQuery = inCmd.nextLine();
 
             System.out.format("Web-Scraping for product: %s\n", productsQuery);

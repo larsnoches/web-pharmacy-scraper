@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyscraper/PharmacyExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pharmacyscraper/PharmacyExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exported.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/exported.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyscraper/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pharmacyscraper/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,14 +26,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.pharmacyscraper.Program" />
       <module name="web-pharmacy-scraper" />
@@ -77,37 +77,37 @@
       <screen x="0" y="0" width="1024" height="570" />
     </state>
     <state x="104" y="0" key="#Project_Structure/0.0.1024.570@0.0.1024.570" timestamp="1587659888097" />
-    <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591415536022">
+    <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591459723835">
       <screen x="0" y="0" width="1024" height="570" />
     </state>
-    <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1024.570@0.0.1024.570" timestamp="1591415536022" />
+    <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1024.570@0.0.1024.570" timestamp="1591459723835" />
     <state x="124" y="0" width="897" height="570" key="CommitChangelistDialog2" timestamp="1591418383860">
       <screen x="0" y="0" width="1024" height="570" />
     </state>
     <state x="124" y="0" width="897" height="570" key="CommitChangelistDialog2/0.0.1024.570@0.0.1024.570" timestamp="1591418383860" />
-    <state x="292" y="39" key="FileChooserDialogImpl" timestamp="1587661025802">
+    <state x="292" y="39" key="FileChooserDialogImpl" timestamp="1591459338968">
       <screen x="0" y="0" width="1024" height="570" />
     </state>
-    <state x="292" y="39" key="FileChooserDialogImpl/0.0.1024.570@0.0.1024.570" timestamp="1587661025802" />
-    <state width="980" height="122" key="GridCell.Tab.0.bottom" timestamp="1591418228956">
+    <state x="292" y="39" key="FileChooserDialogImpl/0.0.1024.570@0.0.1024.570" timestamp="1591459338968" />
+    <state width="980" height="122" key="GridCell.Tab.0.bottom" timestamp="1591460083774">
       <screen x="0" y="0" width="1024" height="570" />
     </state>
-    <state width="980" height="122" key="GridCell.Tab.0.bottom/0.0.1024.570@0.0.1024.570" timestamp="1591418228956" />
-    <state width="980" height="122" key="GridCell.Tab.0.center" timestamp="1591418228955">
+    <state width="980" height="122" key="GridCell.Tab.0.bottom/0.0.1024.570@0.0.1024.570" timestamp="1591460083774" />
+    <state width="980" height="122" key="GridCell.Tab.0.center" timestamp="1591460083774">
       <screen x="0" y="0" width="1024" height="570" />
     </state>
-    <state width="980" height="122" key="GridCell.Tab.0.center/0.0.1024.570@0.0.1024.570" timestamp="1591418228955" />
-    <state width="980" height="122" key="GridCell.Tab.0.left" timestamp="1591418228954">
+    <state width="980" height="122" key="GridCell.Tab.0.center/0.0.1024.570@0.0.1024.570" timestamp="1591460083774" />
+    <state width="980" height="122" key="GridCell.Tab.0.left" timestamp="1591460083774">
       <screen x="0" y="0" width="1024" height="570" />
     </state>
-    <state width="980" height="122" key="GridCell.Tab.0.left/0.0.1024.570@0.0.1024.570" timestamp="1591418228954" />
-    <state width="980" height="122" key="GridCell.Tab.0.right" timestamp="1591418228956">
+    <state width="980" height="122" key="GridCell.Tab.0.left/0.0.1024.570@0.0.1024.570" timestamp="1591460083774" />
+    <state width="980" height="122" key="GridCell.Tab.0.right" timestamp="1591460083774">
       <screen x="0" y="0" width="1024" height="570" />
     </state>
-    <state width="980" height="122" key="GridCell.Tab.0.right/0.0.1024.570@0.0.1024.570" timestamp="1591418228956" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1591414582141">
+    <state width="980" height="122" key="GridCell.Tab.0.right/0.0.1024.570@0.0.1024.570" timestamp="1591460083774" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1591459600270">
       <screen x="0" y="0" width="1024" height="570" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1024.570@0.0.1024.570" timestamp="1591414582141" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1024.570@0.0.1024.570" timestamp="1591459600270" />
   </component>
 </project>
