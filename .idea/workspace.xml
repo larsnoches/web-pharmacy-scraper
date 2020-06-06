@@ -3,20 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4cc2edc5-fd43-4aed-ab79-438319a15eeb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/PharmacyExporter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/PharmacyProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/PharmacyProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyparser/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/pharmacyparser/PharmacyExporter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/pharmacyparser/PharmacyProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/pharmacyparser/PharmacyProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/pharmacyparser/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyscraper/PharmacyExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pharmacyscraper/PharmacyExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pharmacyscraper/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pharmacyscraper/Program.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,28 +18,25 @@
   </component>
   <component name="ProjectId" id="1agG0WkUpfXu5cXx9Mt8AXx3kxW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.pharmacyscraper.Program" />
-      <module name="pharmacyscraper" />
+      <module name="web-pharmacy-scraper" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,10 +60,54 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="0" width="580" height="570" key="#Program" timestamp="1591414927688">
+      <screen x="0" y="0" width="1024" height="570" />
+    </state>
+    <state x="304" y="0" width="580" height="570" key="#Program/0.0.1024.570@0.0.1024.570" timestamp="1591414927688" />
+    <state x="104" y="0" key="#Project_Structure" timestamp="1587659888097">
+      <screen x="0" y="0" width="1024" height="570" />
+    </state>
+    <state x="104" y="0" key="#Project_Structure/0.0.1024.570@0.0.1024.570" timestamp="1587659888097" />
+    <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591415536022">
+      <screen x="0" y="0" width="1024" height="570" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1024.570@0.0.1024.570" timestamp="1591415536022" />
+    <state x="124" y="0" width="897" height="570" key="CommitChangelistDialog2" timestamp="1591418383860">
+      <screen x="0" y="0" width="1024" height="570" />
+    </state>
+    <state x="124" y="0" width="897" height="570" key="CommitChangelistDialog2/0.0.1024.570@0.0.1024.570" timestamp="1591418383860" />
+    <state x="292" y="39" key="FileChooserDialogImpl" timestamp="1587661025802">
+      <screen x="0" y="0" width="1024" height="570" />
+    </state>
+    <state x="292" y="39" key="FileChooserDialogImpl/0.0.1024.570@0.0.1024.570" timestamp="1587661025802" />
+    <state width="980" height="122" key="GridCell.Tab.0.bottom" timestamp="1591418228956">
+      <screen x="0" y="0" width="1024" height="570" />
+    </state>
+    <state width="980" height="122" key="GridCell.Tab.0.bottom/0.0.1024.570@0.0.1024.570" timestamp="1591418228956" />
+    <state width="980" height="122" key="GridCell.Tab.0.center" timestamp="1591418228955">
+      <screen x="0" y="0" width="1024" height="570" />
+    </state>
+    <state width="980" height="122" key="GridCell.Tab.0.center/0.0.1024.570@0.0.1024.570" timestamp="1591418228955" />
+    <state width="980" height="122" key="GridCell.Tab.0.left" timestamp="1591418228954">
+      <screen x="0" y="0" width="1024" height="570" />
+    </state>
+    <state width="980" height="122" key="GridCell.Tab.0.left/0.0.1024.570@0.0.1024.570" timestamp="1591418228954" />
+    <state width="980" height="122" key="GridCell.Tab.0.right" timestamp="1591418228956">
+      <screen x="0" y="0" width="1024" height="570" />
+    </state>
+    <state width="980" height="122" key="GridCell.Tab.0.right/0.0.1024.570@0.0.1024.570" timestamp="1591418228956" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1591414582141">
+      <screen x="0" y="0" width="1024" height="570" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1024.570@0.0.1024.570" timestamp="1591414582141" />
   </component>
 </project>

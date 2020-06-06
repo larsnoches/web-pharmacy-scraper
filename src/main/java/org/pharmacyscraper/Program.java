@@ -6,6 +6,7 @@ import java.net.MalformedURLException;
 //import java.util.ArrayList;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Program {
 
@@ -152,7 +153,11 @@ public class Program {
     public static void main(String[] args) {
 
         try {
-            String productsQuery = (args.length > 0) ? args[0] : "гематоген";
+//            String productsQuery = (args.length > 0) ? args[0] : "гематоген";
+            java.util.Scanner inCmd = new  java.util.Scanner(System.in);
+            System.out.println("Enter a query for search");
+            String productsQuery = inCmd.nextLine();
+
             System.out.format("Web-Scraping for product: %s\n", productsQuery);
 
             ArrayList<PharmacyProduct> productsArray = new ArrayList<>();

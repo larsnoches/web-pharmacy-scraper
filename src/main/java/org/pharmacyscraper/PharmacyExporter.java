@@ -64,7 +64,7 @@ public class PharmacyExporter {
             sheet.autoSizeColumn(0);
             sheet.autoSizeColumn(1);
 
-            try (FileOutputStream output = new FileOutputStream("exported.xls")) {
+            try (FileOutputStream output = new FileOutputStream("exported.xlsx")) {
                 workbook.write(output);
                 System.out.format("Data of %d products has been exported.\n\n", productsArray.size());
             }
